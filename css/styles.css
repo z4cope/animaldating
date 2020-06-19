@@ -1,0 +1,188 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation menu style */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+  font-size: 18px;
+}
+
+/* Download buttons */
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone pic */
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*The fetures section*/
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.elements {
+  padding: 20px 0 20px 0;
+}
+
+.elements i {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.elements i:hover {
+  color: #ff4c68;
+  transition: 0.2s;
+}
+
+.elements p {
+  width: 80%;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+#testimonials img {
+  width: 10%;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 20px 15px 100px 15px;
+}
+
+#press img {
+  width: 15%;
+}
+
+/* Pricing Section*/
+
+#pricing {
+  padding: 5% 10%;
+}
+
+.pricing-cards {
+  padding: 30px 0;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+#pricing h3 {
+  font-weight: 700;
+}
+
+#pricing p {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+/* Fotter Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 20%;
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* In touch section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+.social-icons i {
+  padding: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
